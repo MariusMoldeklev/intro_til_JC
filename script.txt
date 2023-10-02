@@ -1,0 +1,63 @@
+
+
+//console.log("hello world")
+
+/* const er en variabel som ikke kan endres på*/
+const userName = "Marius"
+console.log(userName);
+
+/*let er en variabel som kan endres på  */
+let age = 30
+age = 31
+console.log(age);
+
+/* Booleans er en sant/usant sjekker */
+const is_it_friday = false;
+console.log(is_it_friday);
+const is_it_monday = true;
+console.log(is_it_monday);
+
+/* ci kan slå sammen variiabler */
+const greet = "Good morning"
+const user_name = "Marius"
+
+const Greeting = greet + " " + user_name;
+
+console.log(Greeting)
+
+/* byggesteiner til en kalkulator */
+let number_one = 10;
+let number_two = 3;
+let sum = number_one + number_two;
+console.log(sum);
+
+
+
+const  variabel = "Variabel"
+const pluss = "+"
+const variabel_two = "enda en variabel"
+
+const variabler = variabel + " " + pluss + " " + variabel_two;
+
+console.log(variabler)
+
+
+let number_four = 100;
+let number_five = 12;
+
+let sum_two = number_five * number_two - number_one;
+console.log(sum_two)
+
+
+
+function multiply() {
+    console.log("Dette er en tekst fra inne i funksjonen")
+
+    let number_three = 5;
+    let number_six = 5;
+    let new_sum = number_three * number_six;
+    console.log(new_sum)
+
+}
+multiply();
+
